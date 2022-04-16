@@ -1,0 +1,121 @@
+/*header start*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: palevioletred;
+}
+
+.container1{
+	max-width: 1000px;
+	background-color: pink;
+	margin: 0 auto;
+}
+
+header{
+
+}
+.profileimg{
+	width: 100px;
+	height: 120px;
+	border: 3px solid black;
+	border-radius: 60px;
+	margin: 10px;
+	padding: 15px;
+	float: left;
+}
+
+.header-bio{
+	float: left;
+	padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+	color: black;
+	font-style: italic;
+}
+
+.header-contact{
+	float: right;
+	padding: 30px;
+	text-decoration: none;
+}
+
+.header-contact a{
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+.header-contact a:hover{
+	text-decoration: underline;
+	color: blanchedalmond;
+}
+
+.div-clear{
+	clear: both;
+}
+
+hr{
+	border: solid black 3px;
+	width: 100%;
+	margin: 20px auto;
+	border-right: none;
+}
+/*header end*/
+
+/*main start*/
+#personal-section{
+
+}
+
+.main-content{
+	margin-bottom: 30px;
+}
+
+.left-div{
+	width: 30%;
+	float: left;
+}
+
+.right-div{
+	width: 70%;
+	float: left;
+}
+
+/*main End*/
+
+.common-hr{
+	border: solid black 3px;
+	border-bottom: none;
+	width: 100%;
+	margin: 20px auto;
+}
+
+/*Edu sec strt*/
+.edu-temp-left{
+	float: left;
+	width: 45%;
+}
+.edu-temp-right{
+	float: right;
+	width: 45%;
+}
+/*Edu sec end*/
+
+/*foot strt*/
+.buttom-Container{
+	background-color: black;
+	text-align: center;
+	padding: 20px;
+}
+.buttom-Container a{
+color: white;
+margin: 20px;
+}
+.buttom-Container p{
+color: white;
+margin: 20px;
+}
+/* foot end */
